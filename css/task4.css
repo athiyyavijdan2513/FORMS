@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: auto;
+}
+.container{
+    width:auto;
+    height:500px;
+    font-family: arial, sans-serif;
+    background-color: #333;
+    display: flex;
+    padding: 50px;
+}
+.div{
+    margin: 20px 0;
+    width: 40%;
+    display: block;
+    position: absolute;
+    z-index: 5;
+}
+.row1 .column{
+    width: 200px;
+    height: 230px;
+    background-color:white;
+}
+.row2 .column{
+    width: 200px;
+    height: 190px;
+    background-color:white;
+}
+.row1,.row2{
+    display: flex;
+}
+.column{
+    margin: 10px;
+    text-align: center;
+    align-content: center;
+}
+.column .icon{
+    font-size: 45px;
+    color: rgb(117, 221, 241) ;
+}
+.column .text h2{
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 2.5em;
+}
+.column .text p{
+    width: 70%;
+    font-size: 13px;
+    font-weight: 500;
+    text-align: center;
+    align-content: center;
+    margin: 0 auto;
+    line-height: 1.5em;
+}
+.column .text a{
+    color: rgb(42, 84, 93);
+}
+.form{
+    position: absolute;
+    z-index: 0;
+    width: 60%;
+    height: 500px;
+    background-color: rgb(117, 221, 241);
+    text-align: center;
+    margin-left: 30%;
+
+}
+.frm{
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding-left: 30px;
+}
+.frm_title{
+    font-weight: 700;
+    font-size: 40px;
+}
+.input{
+    display: block;
+    margin: auto 0;
+    width: 75%;
+    height: 40px;
+    margin: 25px 80px;
+    border: none;
+}
+::placeholder{
+    padding-left: 10px;
+}
+textarea{
+    display: block;
+    border: none;
+    width: 75%;
+    height: 100px;
+    margin: 20px 80px;
+}
+.btn{
+    width: 100px;
+    height: 35px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: rgb(26, 26, 125);
+    font-weight: bold;
+}

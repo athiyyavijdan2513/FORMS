@@ -1,0 +1,77 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  width: 100%;
+  height: auto;
+}
+.container{
+  width: 100%;
+  height: 600px;
+  font-family: arial, sans-serif;
+}
+.bg-image {
+  /* The image used */
+  background-image: url("/img/ocean.jpg");
+  
+  /* Add the blur effect */
+  filter: blur(6px);
+  
+  /* Full height */
+  height: 100%; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgba(0, 0, 0, 0.224); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.224); 
+  color: white;
+  font-weight: bold;
+  border:none;
+  border-radius: 5px;
+  position: absolute;
+  top: 20%;
+  left: 35%;
+  /* transform: translate(-50%, -50%); */
+  z-index: 2;
+  width: 25%;
+  padding: 20px;
+  text-align: center;
+}
+.block{
+  display: block;
+}
+.input{
+  width: 100%;
+  height: 40px;
+  margin: 10px 0 20px 0;
+  border: none;
+}
+::placeholder{
+  padding-left: 30px;
+}
+textarea{
+  width: 100%;
+  height: 110px;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-family: arial, sans-serif;
+  padding:15px 30px;
+  border: none;
+  color: gray;
+}
+.btn{
+  width: 100%;
+  height: 50px;
+  border: 3px solid white;
+  font-weight:bold ;
+  font-size: 17px;
+  color: white;
+  background-color: rgb(28, 156, 235);
+  margin: 20px 0 10px 0;
+}
